@@ -1,0 +1,227 @@
+{
+  "categories": [
+    {
+      "category": "Hematology",
+      "tests": [
+        {
+          "name": "Hemoglobin",
+          "color": "red",
+          "selectedColor": "white"
+        },
+        {
+          "name": "White Blood Cells",
+          "color": "white",
+          "selectedColor": "black"
+        },
+        {
+          "name": "Platelets",
+          "color": "purple",
+          "selectedColor": "white"
+        },
+        {
+          "name": "ESR",
+          "color": "orange",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Mean Corpuscular Volume (MCV)",
+          "color": "lightblue",
+          "selectedColor": "black"
+        },
+        {
+          "name": "Red Blood Cell Count (RBC)",
+          "color": "darkred",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Peripheral Blood Smear",
+          "color": "pink",
+          "selectedColor": "white"
+        }
+      ]
+    },
+    {
+      "category": "Biochimia",
+      "tests": [
+        {
+          "name": "Glucose",
+          "color": "gray",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Cholesterol",
+          "color": "yellow",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Iron",
+          "color": "brown",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Vitamin D",
+          "color": "green",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Urea",
+          "color": "lightgreen",
+          "selectedColor": "black"
+        },
+        {
+          "name": "Creatinine",
+          "color": "darkblue",
+          "selectedColor": "white"
+        },
+        {
+          "name": "Albumin",
+          "color": "cyan",
+          "selectedColor": "black"
+        },
+        {
+          "name": "Liver Enzymes (ALT, AST)",
+          "color": "orange",
+          "selectedColor": "black"
+        }
+      ]
+    },
+    {
+      "category": "Immunology",
+      "tests": [
+        {
+          "name": "CRP",
+          "color": "blue"
+        },
+        {
+          "name": "TSH",
+          "color": "pink"
+        },
+        {
+          "name": "Immunoglobulin A (IgA)",
+          "color": "teal"
+        },
+        {
+          "name": "Immunoglobulin G (IgG)",
+          "color": "gold"
+        },
+        {
+          "name": "Complement Levels (C3, C4)",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "category": "Endocrinology",
+      "tests": [
+        {
+          "name": "Cortisol",
+          "color": "yellow"
+        },
+        {
+          "name": "Thyroid Panel",
+          "color": "pink"
+        },
+        {
+          "name": "Free T3 / Free T4",
+          "color": "blue"
+        },
+        {
+          "name": "Prolactin",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "category": "Genetic",
+      "tests": [
+        {
+          "name": "BRCA1/BRCA2",
+          "color": "clear"
+        },
+        {
+          "name": "Karyotype",
+          "color": "clear"
+        },
+        {
+          "name": "Fragile X Syndrome",
+          "color": "pink"
+        },
+        {
+          "name": "Thalassemia Screen",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "category": "Infectious",
+      "tests": [
+        {
+          "name": "HIV",
+          "color": "red"
+        },
+        {
+          "name": "Hepatitis B",
+          "color": "yellow"
+        },
+        {
+          "name": "Hepatitis C",
+          "color": "yellow"
+        },
+        {
+          "name": "Tuberculosis (TB) Test (Quantiferon)",
+          "color": "blue"
+        },
+        {
+          "name": "Epstein-Barr Virus (EBV)",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "category": "Oncology",
+      "tests": [
+        {
+          "name": "Tumor Markers",
+          "color": "green"
+        },
+        {
+          "name": "CEA",
+          "color": "green"
+        },
+        {
+          "name": "PSA (Prostate-Specific Antigen)",
+          "color": "blue"
+        },
+        {
+          "name": "CA-125",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "category": "Metabolism",
+      "tests": [
+        {
+          "name": "Lipid Panel",
+          "color": "yellow"
+        },
+        {
+          "name": "Glucose Tolerance Test",
+          "color": "gray"
+        },
+        {
+          "name": "Insulin",
+          "color": "blue"
+        },
+        {
+          "name": "Vitamin B12",
+          "color": "red"
+        },
+        {
+          "name": "Folate",
+          "color": "green"
+        }
+      ]
+    }
+  ]
+}

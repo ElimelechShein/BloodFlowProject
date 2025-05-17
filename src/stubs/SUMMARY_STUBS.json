@@ -1,0 +1,38 @@
+{
+    "message": "Order created successfully",
+    "order": {
+      "orderNumber": "ORD-1734944441382-7256",
+      "patientDetails": {
+        "name": "Jane Smith",
+        "id": "123456789",
+        "birthDate": "1985-07-15"
+      },
+      "tests": [
+        {
+          "_id": "676926b9e81f475451268e17",
+          "name": "red",
+          "attributes": ["Hemoglobin"],
+          "barcode": null
+        },
+        {
+          "_id": "676926b9e81f475451268e18",
+          "name": "brown",
+          "attributes": ["Iron"],
+          "barcode": null
+        },
+        {
+          "_id": "676926b9e81f475451268e19",
+          "name": "green",
+          "attributes": ["Vitamin D", "Tumor Markers", "CEA"],
+          "barcode": null
+        }
+      ],
+      "createdAt": "2024-12-23T09:00:41.382Z",
+      "createdBy": {
+        "_id": "6744842bacd184d57fc590f7",
+        "name": "John Doe",
+        "role": "doctor"
+      }
+    }
+  }
+  

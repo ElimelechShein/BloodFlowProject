@@ -1,0 +1,348 @@
+body {
+ 
+}
+
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 25px;
+}
+.arrButtons{
+  position: sticky;
+  top: 0;
+  z-index: 9;
+
+  background-color: rgba(19, 121, 152, 0.7);
+}
+
+
+.Logo{
+ width: 125px;
+  height: 50px;
+  justify-items:right;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items:center;
+/* flex-wrap: wrap;
+align-self: center; */
+margin:0 auto;
+
+}
+
+
+
+/*    Login  טפסי התחברות */
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  /* min-width: 350px; */
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.Auth-form {
+  background: linear-gradient(45deg, #f9fbfc, #8aabed5e, #effefb29);
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-width: 400px;
+  min-height: 350px;
+}
+
+
+.Auth-form h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Auth-form .form-control {
+  border: 2px solid #3c5f8f;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.Auth-form .form-control:focus {
+  border-color: #6b9dc7;
+  box-shadow: 0 0 5px rgba(107, 157, 199, 0.5);
+  
+}
+
+.Auth-form button {
+  background-color: #6b9dc7;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.Auth-form button:hover {
+  background-color: #3c5f8f;
+
+}
+
+
+/*  Home */
+
+.classHome{
+
+background: linear-gradient(45deg, #ecf2f4, #e4ebf9, #eafaf6);
+box-shadow: 0 4px 8px rgba(186, 184, 184, 0);
+
+}
+
+.classarrButtons{
+  position: sticky;
+  top: 0;
+ 
+
+}
+
+
+.WindowGalery{
+max-width: 800px;
+  display: flex;
+  
+flex-wrap: wrap;
+
+gap :3em;
+justify-content: center;
+width: 1200px;
+
+}
+
+.containerGulery{
+
+   
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px 10px rgba(240, 248, 255, 0.8); צל דהוי מסביב */
+  
+  
+  background-color: rgba(0, 200, 255, 0.067);
+}
+
+
+
+/* .buttonFinish{
+
+  position: sticky;
+  bottom: 0;
+  background-color: rgba(52, 216, 216, 0.236);
+
+
+} */
+
+
+.col {
+  flex: 1; /* כל עמודה מקבלת חלק שווה מהשורה */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.formPatishent{
+
+  max-height: 100px;
+
+  background: linear-gradient(45deg, #ceedf6, #537fd7, #43e8c4);
+
+
+}
+
+
+
+.buttonFinish{
+  width: 950px;
+
+  background-color: rgba(19, 121, 152, 0.7);
+}
+
+
+
+
+
+/* button */
+ /* עיצוב כפתור בסיסי */
+.button {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* גרדיאנט צבעים משתלב */
+  color: white; /* צבע טקסט */
+  border: none; /* ללא גבולות */
+  border-radius: 50px; /* עיגול פינות */
+  padding: 15px 30px; /* גודל פנימי */
+  font-size: 18px; /* גודל טקסט */
+  font-weight: bold; /* טקסט מודגש */
+  cursor: pointer; /* סמן עכבר מתאים */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל כפתור */
+  transition: all 0.3s ease; /* אפקט מעבר */
+}
+
+/* אפקט מעבר עכבר */
+.button:hover {
+  transform: translateY(-3px); /* הרמה קלה */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* חיזוק צל */
+}
+
+/* אפקט לחיצה */
+.button:active {
+  transform: translateY(2px); /* הורדה קלה */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* הקטנת צל */
+}
+
+/* אנימציה במעבר */
+.button::after {
+  content: ""; /* אלמנט פנימי */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3); /* הבהרה קלה */
+  border-radius: 50px; /* מתאים לפינות הכפתור */
+  opacity: 0; /* מוסתר בתחילה */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* אפקט מעבר */
+  transform: scale(0.9); /* גודל מופחת */
+}
+
+.button:hover::after {
+  opacity: 1; /* מופיע בהדרגה */
+  transform: scale(1); /* גודל מלא */
+}
+
+
+
+
+
+.styled-frame {
+  border: 5px solid rgb(158, 205, 220); /* פס חיצוני עבה בצבע תכלת */
+  border-width: 5px 5px 3px 3px; /* שינוי עובי הפס כדי ליצור אפקט דינמי */
+  border-radius: 10px; /* פינות מעוגלות */
+  padding: 15px; /* מרחק פנימי בין המסגרת לתוכן */
+  background-color: #d9f5fa; /* רקע עדין */
+  /* box-shadow: 0 4px 10px rgba(11, 0, 0, 0.2);  */
+  box-shadow: 0 0 20px 10px rgba(240, 248, 255, 0.8); /* צל דהוי מסביב */
+  
+}
+
+
+/* מצלמה  */
+.scanner-overlay {
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  width: 400px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 15px;
+}
+.scanner-animation {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border: 2px solid #fff;
+}
+.scanner-animation .red-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down {
+  0% { top: 0; }
+  100% { top: 100%; }
+}
+
+
+/* אנימציה למטוס */
+.airplane-container {
+  position: absolute;
+  top: 10px; /* כוונון המיקום האנכי */
+  right: -150px; /* מתחיל מחוץ למסך */
+  z-index: 10;
+  animation: fly-in 4s ease-out forwards; /* אנימציה */
+}
+
+.airplane {
+  width: 100px; /* הגדרת גודל התחלתי */
+  transform: rotate(-10deg); /* מעט זווית */
+}
+
+
+
+
+
+@keyframes fly-in {
+  0% {
+    right: -150px; /* מחוץ למסך */
+    top: 20px; /* מיקום אנכי קבוע */
+    transform: scale(0.8); /* קטן בתחילת האנימציה */
+  }
+  60% {
+    right: 50px; /* באמצע הדרך */
+    top: 20px; /* קו ישר */
+    transform: scale(1.5); /* גדל במהלך הטיסה */
+  }
+  100% {
+    right: 100px; /* מיקום סופי */
+    top: 25px; /* נשאר בקו ישר */
+    transform: scale(2); /* נשאר גדול */
+  }
+}
+
+
+
+
+.Categories {
+  border: 1px solid #ddd;
+  border-radius: 10px; /* שים לב לשם הנכון */
+  background-color: #f0f0f0; /* שים לב לשם הנכון */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px; /* הוספת יחידת המידה */
+}
+
+.testbuttonG {
+  cursor: pointer;
+  border: 2px solid #444; /* מסגרת אפור כהה */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px; /* עיגול הפינות */
+  transition: all 0.3s ease; /* אנימציה חלקה */
+}
+
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
